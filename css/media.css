@@ -34,6 +34,46 @@
 
     }
 
+
+
+
+    .ham-btn {
+        display: block;
+    }
+
+    #checkbox:checked~.ham-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+        justify-content: center;
+    }
+
+    #checkbox:checked~.ham-btn {
+        display: none;
+    }
+
+    #checkbox:checked~.close-btn {
+        display: block;
+
+    }
+
+    .ham-list p {
+        /* padding: 6px 32px 6px 42px; */
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ham-list p:hover {
+        color: #107569;
+        background-color: #F0FDF9;
+
+    }
+
+
+
+
     .rightside img {
         display: flex;
         /* margin-right: 20px;
@@ -154,127 +194,167 @@
 }
 
 
-@media (max-width:376px) {
+@media (max-width:480px) {
     html {
         /* background-color: pink; */
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-between;
     }
 
     .head {
         display: flex;
         justify-content: space-between;
-        max-width: 375px;
-        padding:  16px;
+        /* max-width: 375px; */
+        padding: 16px;
     }
-    .l1{
+
+    .l1 {
         max-width: 157px;
         gap: 10px;
     }
-    .grid{
+
+    .grid {
         display: grid;
         grid-template-columns: 1fr;
+        padding: 10px 30px;
     }
-    .imagebox{
-        max-width: 343px;
+
+    .imagebox {
+        max-width: 100%;
     }
-    .imagebox img{
-        width:48px;
+
+    .imagebox img {
+        width: 48px;
         height: 48px;
-        }
-        .imagebox h4{
-            font-size: 18px;
-            line-height: 28px;
-        }
-        .imagebox p{
-            font-size: 16px;
-            line-height: 24px;
-        }
+    }
+
+    .imagebox h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .imagebox p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #475467;
+    }
+
     /* .container{
         max-width: 375px;
     } */
-    .feature{
+    .feature {
         max-width: 343px;
         gap: 16px;
     }
-    .feature span{
+
+    .feature span {
         font-size: 16px;
         line-height: 24px;
     }
-    .feature h2{
+
+    .feature h2 {
         font-size: 30px;
         line-height: 38px;
         text-align: center;
     }
-    .feature p{
+
+    .feature p {
         font-size: 18px;
         line-height: 28px;
         text-align: center;
     }
-    .abouttext{
+
+    .abouttext {
         display: grid;
         grid-template-columns: 1fr;
         /* max-width: 343px; */
         gap: 32px;
     }
-    .grid1{
-       max-width: 343px;
-padding: 32px 24px 32px 24px;
-/* gap: 20px; */
-border-radius: 20px;
-border: 1px 0px 0px 0px;
+
+    .aboutimage {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .grid1 {
+        max-width: 343px;
+        padding: 32px 24px 32px 24px;
+        /* gap: 20px; */
+        border-radius: 20px;
+        border: 1px 0px 0px 0px;
 
     }
-    .content-right img{
+
+    .content-right img {
         height: 343px;
         width: 343px;
     }
-    .content-left{
-        /* max-width: 343px; */
+
+    .content-left {
+        max-width: 343px;
         gap: 48px;
         text-align: left;
     }
-    .content-left h3{
+
+    .content-left h3 {
         font-size: 30px;
         line-height: 38px;
     }
-    .content-left p{
+
+    .content-left p {
         font-size: 18px;
         line-height: 28px;
     }
-    .text-button{
+
+    .text-button {
         max-width: 375px;
         display: flex;
         flex-direction: column;
     }
-    .text-center{
+
+    .text-center {
         display: flex;
         flex-direction: column;
         width: 343px;
-        padding: 64px 32px 64px 32px;
+        padding: 32px 16px;
         /* gap: 64px; */
         border-radius: 20px;
+        margin-top: 60px;
 
     }
-    .text-center h3{
+
+    .text-center h3 {
         max-width: 279px;
         font-size: 30px;
         line-height: 38px;
         text-align: center;
 
     }
-    .text-center p{
+
+    .text-center p {
         font-size: 20px;
         line-height: 28px;
         text-align: center;
     }
-    .text-center .btn4{
+
+    .text-center .btn4 {
         width: 279px;
-padding: 12px 20px 12px 20px;
-gap: 8px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
 
     }
-    /* footer{
-        max-width: 375px;
-    } */
+
+    footer {
+        /* max-width: 375px; */
+        padding: 20px 30px;
+    }
+
+    .small-footer-bottom {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .small-footer-bottom p {
+        line-height: 24.5px;
+    }
 }
