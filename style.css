@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  margin: 0rem;
+  margin: 0px;
   font-family: "poppins";
 }
 
 .home-nav {
   margin: auto;
-  max-width: 90rem;
+  max-width: 1440px;
   min-width: 100%;
-  padding: 0rem;
+  padding: 0px;
   gap: 10px;
   background-color: #fff;
   position: sticky;
@@ -22,7 +22,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 18px 32px 18px 32px;
   gap: 0px;
   align-items: center;
@@ -111,7 +111,7 @@ body {
 .home {
   display: flex;
   justify-content: center;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   margin: auto;
@@ -179,7 +179,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 96px 32px 96px 32px;
   gap: 64px;
 }
@@ -281,7 +281,7 @@ body {
 .features {
   display: flex;
   margin: auto;
-  max-width: 90rem;
+  max-width: 1440px;
   padding: 0rem 80px;
   gap: 10px;
   background-color: #125D56;
@@ -291,7 +291,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   margin: auto;
@@ -387,7 +387,7 @@ body {
 .sales {
   display: flex;
   align-items: center;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   margin: auto;
@@ -431,14 +431,14 @@ body {
 .pricing {
   display: flex;
   flex-direction: column;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 96px 0rem;
   gap: 10px;
   margin: auto;
 }
 
 .pricing-outer {
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   border-radius: 20px;
@@ -498,7 +498,7 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  max-width: 90rem;
+  max-width: 1440px;
   padding: 64px 80px 48px 80px;
   gap: 64px;
   justify-content: space-between;
@@ -508,7 +508,7 @@ body {
 
 .footer-top {
   display: flex;
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 0rem 32px;
   gap: 162px;
   justify-content: space-between;
@@ -575,7 +575,7 @@ li {
 }
 
 .footer-bottom {
-  max-width: 80rem;
+  max-width: 1280px;
   padding: 31px 32px 31px 32px;
   gap: 0rem;
   display: flex;
