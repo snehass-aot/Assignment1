@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  margin: 0px;
+  margin: 0rem;
   font-family: "poppins";
 }
 
 .home-nav {
   margin: auto;
-  max-width: 1440px;
+  max-width: 90rem;
   min-width: 100%;
-  padding: 0px;
+  padding: 0rem;
   gap: 10px;
-  background-color: white;
+  background-color: #fff;
   position: sticky;
   top: 0;
   left: 0;
@@ -22,12 +22,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 18px 32px 18px 32px;
   gap: 0px;
   align-items: center;
   margin: auto;
-  background-color: white;
+  background-color: #fff;
 }
 
 .header-left {
@@ -44,10 +44,10 @@ body {
   max-width: 157px;
   height: 32px;
   gap: 10px;
-  opacity: 0px;
+  opacity: 0rem;
 }
 .header-left-image-text p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 30px;
   color: #101828;
@@ -64,7 +64,7 @@ body {
   gap: 32px;
 }
 .nav p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
@@ -81,12 +81,12 @@ body {
 .login-btn {
   max-width: 48px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #475467;
   border: none;
-  background-color: white;
-  padding: 0px;
+  background-color: #fff;
+  padding: 0rem;
 }
 
 .signup-btn {
@@ -95,11 +95,11 @@ body {
   padding: 8px 14px 8px 14px;
   gap: 8px;
   border-radius: 8px;
-  opacity: 0px;
+  opacity: 0rem;
   background-color: #15B79E;
-  color: white;
+  color: #fff;
   border: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 20px;
   text-align: left;
@@ -111,7 +111,7 @@ body {
 .home {
   display: flex;
   justify-content: center;
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   margin: auto;
@@ -132,9 +132,9 @@ body {
   gap: 12px;
   border-radius: 8px;
   background-color: #15B79E;
-  color: white;
+  color: #fff;
   border: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 28px;
   text-align: left;
@@ -143,20 +143,20 @@ body {
   background-color: #0E9384;
 }
 .home-left h3 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 600;
   line-height: 72px;
   margin: 0;
 }
 .home-left img {
   max-width: 480px;
-  gap: 0px;
+  gap: 0rem;
   border: 2px;
   margin: 0;
 }
 .home-left p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   margin: auto;
   max-width: 576px;
@@ -179,7 +179,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 96px 32px 96px 32px;
   gap: 64px;
 }
@@ -194,7 +194,7 @@ body {
   margin: auto;
 }
 .about-top span {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
@@ -202,7 +202,7 @@ body {
 }
 .about-top h3 {
   margin: 0;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
@@ -210,7 +210,7 @@ body {
 }
 .about-top p {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
@@ -256,13 +256,13 @@ body {
 }
 .card-style h3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   margin: 0;
 }
 .card-style p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #475467;
   margin: 0;
@@ -281,8 +281,8 @@ body {
 .features {
   display: flex;
   margin: auto;
-  max-width: 1440px;
-  padding: 0px 80px 0px 80px;
+  max-width: 90rem;
+  padding: 0rem 80px;
   gap: 10px;
   background-color: #125D56;
 }
@@ -291,7 +291,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   margin: auto;
@@ -307,20 +307,20 @@ body {
   flex-direction: column;
 }
 .feature-top span {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
   color: #15B79E;
 }
 .feature-top h3 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
-  color: white;
+  color: #fff;
   margin: 0;
 }
 .feature-top p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   max-width: 797px;
@@ -351,18 +351,18 @@ body {
   gap: 20px;
   border-radius: 20px;
   border: 1px solid #D0D5DD;
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   box-sizing: border-box;
 }
 .feature-card img {
   max-width: 48px;
-  padding: 12px 0px 0px 0px;
+  padding: 12px 0rem 0rem 0rem;
   gap: 10px;
 }
 .feature-card h3 {
   max-width: 336px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 30px;
   text-align: center;
@@ -371,7 +371,7 @@ body {
 }
 .feature-card p {
   max-width: 336px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
@@ -387,7 +387,7 @@ body {
 .sales {
   display: flex;
   align-items: center;
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   margin: auto;
@@ -396,7 +396,7 @@ body {
 .sales-left {
   max-width: 576px;
   gap: 48px;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
@@ -405,14 +405,14 @@ body {
   flex-direction: column;
 }
 .sales-left h3 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
   margin: 0;
 }
 .sales-left p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
@@ -431,14 +431,14 @@ body {
 .pricing {
   display: flex;
   flex-direction: column;
-  max-width: 1280px;
-  padding: 96px 0px 96px 0px;
+  max-width: 80rem;
+  padding: 96px 0rem;
   gap: 10px;
   margin: auto;
 }
 
 .pricing-outer {
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 96px 32px 96px 32px;
   gap: 64px;
   border-radius: 20px;
@@ -454,15 +454,15 @@ body {
   align-items: center;
 }
 .pricing-inner h3 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
   text-align: center;
-  color: white;
+  color: #fff;
   margin: 0;
 }
 .pricing-inner p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
@@ -478,11 +478,11 @@ body {
   border: none;
   display: flex;
   flex-direction: column;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 28px;
   text-align: left;
-  color: white;
+  color: #fff;
 }
 .pricing-inner button:hover {
   background-color: #0E9384;
@@ -498,18 +498,18 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: 90rem;
   padding: 64px 80px 48px 80px;
   gap: 64px;
   justify-content: space-between;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
 }
 
 .footer-top {
   display: flex;
-  max-width: 1280px;
-  padding: 0px 32px 0px 32px;
+  max-width: 80rem;
+  padding: 0rem 32px;
   gap: 162px;
   justify-content: space-between;
 }
@@ -526,7 +526,7 @@ body {
   max-width: 48px;
 }
 .footer-top-left p {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
@@ -547,7 +547,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
@@ -557,7 +557,7 @@ body {
   margin-top: 16px;
 }
 .footer-top-right ul li:first-child {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
@@ -566,7 +566,7 @@ body {
 }
 
 .list-container {
-  margin: 0px;
+  margin: 0rem;
   justify-content: baseline;
 }
 
@@ -575,9 +575,9 @@ li {
 }
 
 .footer-bottom {
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 31px 32px 31px 32px;
-  gap: 0px;
+  gap: 0rem;
   display: flex;
   justify-content: space-between;
 }
@@ -585,13 +585,13 @@ li {
 .inner-footer-bottom {
   display: flex;
   width: 1216px;
-  gap: 0px;
+  gap: 0rem;
   justify-content: space-between;
 }
 
 .footer-bottom-left {
   max-width: 255px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 24.5px;
   text-align: center;
@@ -612,7 +612,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 48px 32px 0;
-  background-color: white;
+  background-color: #fff;
   color: #000;
   display: none;
   border-top: 1px solid #D0D5DD;
@@ -632,7 +632,7 @@ footer {
   height: 48px;
 }
 .small-footer-top-left p {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
 }
 
@@ -654,7 +654,7 @@ footer {
 }
 
 .expand-footer-div p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #475467;
   margin: 0;
@@ -686,7 +686,7 @@ footer {
 }
 .accordion-content ul li {
   padding: 5px 0;
-  font-size: 16px;
+  font-size: 1rem;
   color: #475467;
   font-weight: 600;
 }
@@ -703,7 +703,7 @@ footer {
 }
 .small-footer-bottom p {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #63656d;
   font-family: Montserrat;
   margin: 0;
